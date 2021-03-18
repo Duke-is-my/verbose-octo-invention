@@ -139,7 +139,7 @@ module.exports = function (req, res, url) {
 			break;
 		}
 
-		case "/player": {
+		case "/watchvideo": {
 			title = "Player";
 			attrs = {
 				data: process.env.SWF_URL + "/player.swf",
