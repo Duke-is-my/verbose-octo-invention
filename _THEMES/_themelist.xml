@@ -3,7 +3,7 @@
 	<fvm_meta theme_code="" is_biz="0" />
         <theme id="commu" name="Community Library (Clone)" thumb="" />
 	<theme id="import" name="Some goanimate stuff." thumb="" />
-	<theme id="Community" name="Community Library" cc_theme_id="Community"/>
+	<theme id="Community" name="Community Library" thumb="" /> cc_theme_id="Community"/>
 	<theme id="zimmertwins" name="Zimmer Twins" thumb="" />
 	<theme id="business" name="Business Friendly" thumb="" cc_theme_id="business" />
 	<theme id="whiteboard" name="Whiteboard Animation" thumb="" cc_theme_id="whiteboard" />
