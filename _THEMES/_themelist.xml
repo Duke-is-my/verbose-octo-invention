@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list version="1.0">
 	<fvm_meta theme_code="" is_biz="0" />
+	<theme id="ccpack" name="CcPack" thumb="" />
         <theme id="commu" name="Community Library (Clone)" thumb="" />
 	<theme id="vsfx" name="Visual effect" thumb="" cc_theme_id="vsfx"/>
 	<theme id="import" name="Some goanimate stuff." thumb="" />
