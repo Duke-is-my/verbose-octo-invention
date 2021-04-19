@@ -19956,4 +19956,5 @@
 	<prop id="xboxconsole.png" name="Xbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3361" money="0" sharing="0" />
 	<prop id="xboxcontroller.png" name="Xbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3361" money="0" sharing="0" />
         <prop id="lenovo.png" name="Lenovo Laptop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3362" money="0" sharing="0" />
+        <prop id="bruh.swf" name="Bruh" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6654" money="0" sharing="0"/>
 </theme>
