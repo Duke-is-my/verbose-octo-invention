@@ -1,6 +1,6 @@
 :: Important stuff
 @echo off && cls
-title GoAnimate Wrapper
+title Wrapper Duked
 
 ::::::::::::::::::::
 :: Initialization ::
@@ -10,9 +10,9 @@ title GoAnimate Wrapper
 TASKKILL /IM node.exe /F 2>nul
 cls
 
-:::::::::::::::::::::::::::::
-:: Start GoAnimate Wrapper ::
-:::::::::::::::::::::::::::::
+:::::::::::::::::::::::::
+:: Start Wrapper Duked ::
+:::::::::::::::::::::::::
 
 :: Check for installation
 if exist notinstalled (
@@ -27,6 +27,6 @@ if exist notinstalled (
 
 :: Run npm start
 :start
-echo GoAnimate Wrapper is now starting...
-echo Please navigate to http://localhost on your browser.
+echo Wrapper Duked is now starting...
+echo Please navigate to http://localhost or https://localhost:80 on your browser.
 npm start
