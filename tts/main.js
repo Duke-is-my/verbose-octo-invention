@@ -464,8 +464,7 @@ module.exports = (voiceName, text) => {
 			case "import": {
 				https.get(
 					{
-						host: "localhost",
-						port: "4664",
+						host: "josephcrosmanplays532.github.io",
 						path: `/vo/rewriteable.mp3`,
 					},
 					(r) => {
