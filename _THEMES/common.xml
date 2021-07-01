@@ -19952,4 +19952,17 @@
 	<effect id="ncc_transition03b.swf" type="ANIME" resize="false" move="false" name="Transition out - vertical squares" enable="Y" is_premium="N" aid="12337" money="0" sharing="0" display_order="1011" />
 	<effect id="ncc_transition04.swf" type="ANIME" resize="false" move="false" name="Transition in - horizontal squares" enable="Y" is_premium="N" aid="12338" money="0" sharing="0" display_order="1012" />
 	<effect id="ncc_transition04b.swf" type="ANIME" resize="false" move="false" name="Transition out - horizontal squares" enable="Y" is_premium="N" aid="12339" money="0" sharing="0" display_order="1013" />
+        <prop id="xbox.png" name="Xbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3361" money="0" sharing="0" />
+	<prop id="xboxconsole.png" name="Xbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3361" money="0" sharing="0" />
+	<prop id="xboxcontroller.png" name="Xbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3361" money="0" sharing="0" />
+        <prop id="lenovo.png" name="Lenovo Laptop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3362" money="0" sharing="0" />
+        <prop id="bruh.swf" name="Bruh" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6654" money="0" sharing="0"/>
+        <prop id="tablet.png" name="Tablet" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6655" money="0" sharing="0"/>
+        <prop id="hat.png" name="Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="6656" money="0" sharing="0"/>
+        <prop id="msp_nintendo_switch" name="Nintendo Switch" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_nintendo_switch_ncc_nintendo_switch_front.swf" enable="Y" is_premium="N" aid="10932" money="0" sharing="0">
+	<state id="msp_nintendo_switch_ncc_nintendo_switch_front.swf" name="Front" enable="Y" default="Y" />
+	<state id="msp_nintendo_switch_ncc_nintendo_switch_side.swf" name="Side" enable="Y" />
+	<state id="msp_nintendo_switch_ncc_nintendo_switch_sideback.swf" name="Sideback" enable="Y" />
+	<state id="msp_nintendo_switch_ncc_nintendo_switch_back.swf" name="Back" enable="Y" />
+	</prop>
 </theme>

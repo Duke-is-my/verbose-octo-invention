@@ -99,7 +99,7 @@ module.exports = function (req, res, url) {
 			break;
 		}
 
-		case "/go_full": {
+		case "/videomaker/full": {
 			let presave =
 				query.movieId && query.movieId.startsWith("m")
 					? query.movieId
@@ -139,7 +139,7 @@ module.exports = function (req, res, url) {
 			break;
 		}
 
-		case "/player": {
+		case "/watchvideo": {
 			title = "Player";
 			attrs = {
 				data: process.env.SWF_URL + "/player.swf",
