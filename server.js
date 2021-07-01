@@ -6,7 +6,6 @@ const pmc = require("./character/premade");
 const chl = require("./character/load");
 const chs = require("./character/save");
 const cht = require("./character/thmb");
-const chu = require("./character/upload");
 const mvu = require("./movie/upload");
 const asu = require("./asset/upload");
 const stl = require("./static/load");
@@ -25,9 +24,8 @@ const tsv = require("./tts/voices");
 const tsl = require("./tts/load");
 const url = require("url");
 
-const functions = [mvL, pmc, asl, chl, thl, thL, chs, chu, cht, asL, tsl, chr, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, stl];
+const functions = [mvL, pmc, asl, chl, thl, thL, chs, cht, asL, tsl, chr, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, stl];
 
-// Creates an HTTP server
 module.exports = http
 	.createServer((req, res) => {
 		try {
@@ -44,4 +42,4 @@ module.exports = http
 			res.end();
 		}
 	})
-	.listen(env.PORT || env.SERVER_PORT, console.log());
+	.listen(env.PORT || env.SERVER_PORT, console.log);
