@@ -135,8 +135,7 @@ module.exports = (voiceName, text) => {
 				});
 				http.get(
 					{
-						host: "localhost",
-						port: "8181",
+						host: "josephcrosmanplays532.github.io",
 						path: `/vfproxy/speech.php?${q}`,
 					},
 					(r) => {
