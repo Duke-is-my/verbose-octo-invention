@@ -214,6 +214,7 @@ module.exports = function (req, res, url) {
 				<a href="./"><img src="/html/dukedlogo.png" /></a>
 			</div>
 			<div>
+                <a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 				<div class="char_dropdown button_small">
 					<div>CREATE A CHARACTER</div>
 					<menu>
@@ -222,7 +223,6 @@ module.exports = function (req, res, url) {
 						<a href="/cc?themeId=family&bs=bob">Bob</a>
 						<a href="/cc?themeId=family&bs=rocky">Rocky</a>
 						<div></div>
-						<a onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 						<a onclick="document.getElementById('file2').click()">UPLOAD A CHARACTER</a>
 						<div></div>
 						<a href="/cc?themeId=anime&bs=guy">Guy (Anime)</a>
