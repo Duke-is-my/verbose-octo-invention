@@ -247,7 +247,7 @@ module.exports = function (req, res, url) {
 					</menu>
 				</div>
 				<a href="/videomaker/full" class="button_big">MAKE A VIDEO</a>
-			        <a href="javascript:; onclick="document.getElementById('file').click()" class="button_big">CC Upload</a>
+			        <a href="javascript:; onclick="document.getElementById('file2').click()" class="button_big">CC Upload</a>
 	                        <a href="/html/go_empty.html" class="button_big">go empty</a>
 	                </div>
 			</div>
@@ -618,7 +618,7 @@ module.exports = function (req, res, url) {
 
 		@font-face {
 			font-family: 'GlyphiconsRegular';
-			src: url('/html/glyphicons-regular.woff') format('woff');
+			src: url('/pages/fonts/glyphicons-regular.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 		}
