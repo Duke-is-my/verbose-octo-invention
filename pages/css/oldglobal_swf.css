@@ -6,37 +6,52 @@ this css has the general header/footer layout stuff
 general
 **/
 html {
-			font-family: 'Sailec', Arial, sans-serif;
-			-ms-text-size-adjust: 100%;
-			-webkit-text-size-adjust: 100%;
+	font-family: 'Sailec', Arial, sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 body {
-			margin: 0;
-			background-color: #fff;
-			color: #474747;
-			font-size: 16px;
-			font-weight: 400;
-			line-height: 1.5;
-			position: relative;
+	margin: 0;
+	background-color: #fff;
+	color: #474747;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	position: relative;
 }
-
-
 /**
 header
 **/
 header {
-	/* style */
-	background: linear-gradient(#2b2b2b, #141414);
-	box-shadow: 0px 1px 6px 0px #0000005c;
-	color: #fff;
-	text-align: center;
-	flex-shrink: 0;
-	/* layout */
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+header>:nth-child(1) {
+	align-content: center;
+	background-color: #1e1e1e;
+	display: inline-block;
 	padding-bottom: 13px;
-	padding: 0 15px;
-	display: flex;
-	justify-content: space-between;
-	z-index: 1; /* keeps the header in front */
+	text-align: center;
+	color: #fff;
+	width: 100%;
+}
+header>:nth-child(1)>:nth-child(1) {
+	float: left;
+}
+header>:nth-child(1)>:nth-child(1)>:nth-child(1)>* {
+	margin-left: 10px;
+	margin-top: 7px;
+	height: 30px;
+}
+header>:nth-child(1)>:nth-child(1)>:nth-child(2) {
+	color: #666;
+	padding-left: 4px;
+	font-weight: 700;
+}
+header>:nth-child(1)>:nth-child(2) {
+	margin-right: 20px;
+	clear: both;
 }
 /* makes the header a set height when the window is 887px wide */
 @media (min-width: 487px) {
@@ -52,87 +67,84 @@ header {
 /* buttons */
 .button_big,
 .button_small {
-	/* style */
+	margin-left: 20px;
+	margin-top: 7px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	border-radius: 3px;
 	font-size: 14px;
 	text-decoration: none;
 	color: #fff;
-	border-radius: 6px;
-	/* layout */
-	display: inline-block;
-	padding: 5px 10px;
-	margin: 6px 5px;
+}
+.button_big {
+	background-color: #d85e27;
+	width: 160px;
+}
+.button_big:hover {
+	text-decoration: underline;
+}
+.button_small:hover {
+	color: #d85e27;
 }
 .button_big:hover,
 .button_small:hover {
 	cursor: pointer;
 }
-/* small buttons */
-.button_small       { background: linear-gradient(#4d4d4d, #303030) }
-.button_small:hover { background: linear-gradient(#404040, #292929); color: #d85e27 }
-/* big buttons */
-.button_big {
-	background: linear-gradient(#d85e27, #b13b07);
-	width: 160px;
-}
-.button_big:hover {
-	background: linear-gradient(#be5423, #892d06);;
-	text-decoration: underline;
-}
-
-
 /**
 header dropdowns
 **/
 /* change button margin/padding to fit dropdown */
-.dropdown_contain { padding: 0; margin: 6px 5px; }
-.dropdown_button { margin: 0; padding: 5px 10px; }
-.upload_button { margin: 0; padding: 5px 25px; }
-/* make dropdown appear on hover */
-.dropdown_contain:hover>nav {
-	display: block;
-	cursor: default;
+.char_dropdown:hover>:nth-child(1) {
+	cursor: context-menu;
+	color: #d85e27;
 }
-/* the dropdown itself */
-.dropdown_menu {
-	/* style */
-	background-color: linear-gradient(#4d4d4d, #303030);
-	border-radius: 6px;
-	/* layout */
+
+.char_dropdown>menu {
+	position: relative;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	float: left;
 	width: 100%;
 	padding: 10px 0;
-	margin: 0;
+	margin: 9px 0 0;
+	list-style: none;
+	font-size: 14px;
 	text-align: left;
-	/* hover stuff */
-	position: relative;
-	float: left;
-	display: none;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
 }
-/* dropdown links */
-.dropdown_menu>a {
-	/* style */
-	color: #ddd;
-	text-decoration: none;
-	/* layout */
+
+.char_dropdown:hover>menu {
+	display: block;
+}
+
+.char_dropdown>menu>a {
 	display: block;
 	padding: 2px 20px;
+	clear: both;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
 }
-.dropdown_menu>a:hover {
-	background: #222;
+
+.char_dropdown>menu>a:hover {
 	color: #d85e27;
-	cursor: pointer;
+	background-color: #f5f5f5;
 }
-/* dropdown header and separation */
-.dropdown_menu>h2 {
-	/* style */
-	color: #fff;
-	font-size: 15px;
-	/* layout */
-	margin:0;
-	padding: 2px 20px;
-}
-.dropdown_menu>hr {
-	border: 1px solid #222;
+
+.char_dropdown>menu>div {
+	height: 1px;
 	margin: 10px 0;
+	background-color: #e5e5e5;
 }
 
 /**
@@ -162,43 +174,63 @@ footer a:hover {
 	text-decoration: underline;
 }
 
+/** 
+warning
+**/
+.warning {
+	font-size: 14px;
+	padding: 10px 0;
+	background-color: #fd7;
+	text-align: center;
+}
+
+.warning::before {
+	font-family: 'GlyphiconsRegular';
+	padding-right: 4px;
+	content: '\E079';
+	font-size: 12px;
+}
+
+.warning>a {
+	color: #5596e6;
+}
 /**
 font importing
 **/
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 100;
-	src: url('.../fonts/Sailec-Thin.woff') format('woff');
+	src: url('/html/Sailec-Thin.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 200;
-	src: url('../fonts/Sailec-Light.woff') format('woff');
+	src: url('/html/Sailec-Light.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 400;
-	src: url('../fonts/Sailec-Regular.woff') format('woff');
+	src: url('/html/Sailec-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 500;
-	src: url('../fonts/Sailec-Medium.woff') format('woff');
+	src: url('/html/Sailec-Medium.woff') format('woff');
 }
 
 /* font weight 500 and font weight 700 (bold) are the same for better integration support */
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 700;
-	src: url('../fonts/Sailec-Medium.woff') format('woff');
+	src: url('/html/Sailec-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'GlyphiconsRegular';
-	src: url('../fonts/glyphicons-regular.woff') format('woff');
+	src: url('/html/glyphicons-regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
