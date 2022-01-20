@@ -3,7 +3,7 @@ const qs = require("querystring");
 const brotli = require("brotli");
 const https = require("https");
 const md5 = require("js-md5");
-const base64 = require("base64-js");
+const base64 = require("js-base64");
 const http = require("http");
 
 // Fallback option for compatibility between Wrapper and https://github.com/Windows81/Text2Speech-Haxxor-JS.
@@ -117,26 +117,6 @@ module.exports = (voiceName, text) => {
 							"User-Agent":
 								"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36",
 						},
-					},
-					(r) => {
-						var buffers = [];
-						r.on("data", (d) => buffers.push(d));
-						r.on("end", () => res(Buffer.concat(buffers)));
-						r.on("error", rej);
-					}
-				);
-				break;
-			}
-			case "voiceforge": {
-				/* Special thanks to ItsCrazyScout for helping us find the new VoiceForge link! */
-				var q = qs.encode({
-					voice: voice.arg,
-					msg: text,
-				});
-				http.get(
-					{
-						host: "josephcrosmanplays532.github.io",
-						path: `/vfproxy/speech.php?${q}`,
 					},
 					(r) => {
 						var buffers = [];
@@ -464,7 +444,8 @@ module.exports = (voiceName, text) => {
 			case "import": {
 				https.get(
 					{
-						host: "josephcrosmanplays532.github.io",
+						host: "localhost",
+						port: "4664",
 						path: `/vo/rewriteable.mp3`,
 					},
 					(r) => {
@@ -499,11 +480,13 @@ module.exports = (voiceName, text) => {
 									var vs = /__VIEWSTATE" value="([^"]+)/.exec(html);
 									var vg = /__VIEWSTATEGENERATOR" value="([^"]+)/.exec(html);
 									var ev = /__EVENTVALIDATION" value="([^"]+)/.exec(html);
+
 									if (vs && ev && vg) {
 										vs = vs[1];
 										vg = vg[1];
 										ev = ev[1];
 									} else rej();
+
 									var q = qs.encode({
 										__EVENTTARGET: "Button1",
 										__EVENTARGUMENT: "",
@@ -513,6 +496,7 @@ module.exports = (voiceName, text) => {
 										ddlVoices: voice.arg,
 										TextBox1: text,
 									});
+
 									const req = https.request(
 										{
 											hostname: "ttsdemo.sestek.com",

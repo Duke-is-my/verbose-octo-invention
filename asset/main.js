@@ -1,8 +1,10 @@
+var mp3Duration = require("mp3-duration");
 const chars = require("../character/main");
 const fUtil = require("../misc/file");
 const caché = require("./caché");
 
 module.exports = {
+
 	load(mId, aId) {
 		return caché.load(mId, aId);
 	},
@@ -19,10 +21,47 @@ module.exports = {
 			var name = aId.substr(0, dash);
 			var ext = aId.substr(dot + 1);
 			var fMode = aId.substr(dash + 1, dot - dash - 1);
-			if (fMode == mode) {
-				ret.push({ id: aId, ext: ext, name: name, mode: fMode });
+			switch (fMode) {	
+				case 'music':
+					var fMode = 'sound';
+					var subtype = 'bgmusic';
+					break;
+				case 'voiceover':
+					var fMode = 'sound';
+					var subtype = 'voiceover';
+					break;
+				case 'soundeffect':
+					var fMode = 'sound';
+					var subtype = 'soundeffect';
+					break;
 			}
-		});
+			if (fMode == mode) {
+				if (fMode == 'sound') {
+					ret.push({ id: aId, ext: ext, name: name, mode: fMode, subtype: subtype});
+				} else {
+				ret.push({ id: aId, ext: ext, name: name, mode: fMode });
+				
+			}
+
+			return new Promise(function (resolve, reject) {
+				console.log(`${process.env.caché}/${mode}.${aId}`);
+				mp3Duration(`${process.env.caché}/${mode}.${aId}`, (e, d) => {
+					var dur = d * 1e3;
+					console.log(dur);
+					var dot = aId.lastIndexOf(".");
+					var dash = aId.lastIndexOf("-");
+					var name = aId.substr(0, dash);
+					var ext = aId.substr(dot + 1);
+					var subtype = aId.substr(dash + 1, dot - dash - 1);
+					console.log(subtype);
+					ret.push({ id: aId, ext: ext, name: name, subtype: subtype, duration: dur });
+					console.log(ret);
+				});
+				resolve(ret);
+				reject(ret)
+			});
+		}
+	});
 		return ret;
 	},
 	listAll(mId) {

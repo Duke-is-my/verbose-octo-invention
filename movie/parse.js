@@ -171,6 +171,7 @@ module.exports = {
 							data = "effect";
 						}
 
+						const prop = "prop";
 						switch (data) {
 							case "durationSetting":
 							case "trans":
@@ -329,13 +330,11 @@ module.exports = {
 					} else if (sfile.startsWith("ugc.")) {
 						var subtype, fileName;
 						if (ttsData) {
-							var text = ttsData.childNamed("text").val;
-							var vName = ttsData.childNamed("voice").val;
+							var text = ttsData.childNamed("text");
+							var vName = ttsData.childNamed("voice");
 							var vInfo = ttsInfo.voices[vName];
 							if (vInfo) {
-								fileName = `[${vInfo.desc}] ${text.replace(/"/g, '\\"')}`;
 							} else {
-								fileName = text.replace(/"/g, '\\"');
 							}
 							subtype = "tts";
 						} else {
