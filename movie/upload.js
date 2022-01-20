@@ -21,7 +21,7 @@ module.exports = function (req, res, url) {
 		fs.unlinkSync(path);
 
 		res.statusCode = 302;
-		var url = `/go_full?movieId=m-${numId}`;
+		var url = `/videomaker/full?movieId=m-${numId}`;
 		res.setHeader("Location", url);
 		res.end();
 	});
