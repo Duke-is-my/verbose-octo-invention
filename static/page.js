@@ -197,31 +197,27 @@ module.exports = function (req, res, url) {
 		</script>
 		<script src="/pages/js/stuff.js"></script>
 		<script>
-			if(window.location.pathname == '/player' || window.location.pathname == '/go_full' || window.location.pathname == '/recordWindow' || window.location.pathname == '/go_full/tutorial') {
+			if(window.location.pathname == '/player' || window.location.pathname == '/recordWindow' || window.location.pathname == '/go_full/tutorial') {
 				function hideHeader() {
-					document.getElementById("header").remove();
+					document.getElementById("link").href = '/videomaker/full';
 				}
 			}
 		</script>
 		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
-		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/oldglobal_swf.css">
 		<link rel="stylesheet" type="text/css" href="/pages/css/swf.css">
 	</head>
 	
 	<header id="header">
-		<a href="/">
-			<h1 style="margin:0"><img id="logo" src="/pages/img/list_logo.svg" alt="Wrapper: Offline"/></h1>
-		</a>
-		<nav id="headbuttons">
-			<div class="dropdown_contain button_small">
-				<div class="dropdown_button upload_button">UPLOAD</div>
-				<nav class="dropdown_menu">
+		<a href="/"><img id="logo" src="/html/dukedlogo.png" alt="Wrapper: Offline"/></a>
+			<div class="char_dropdown button_small">
+				<div>UPLOAD</div>
+				<menu>
 					<a onclick="document.getElementById('file').click()">Movie</a>
 					<a onclick="document.getElementById('file2').click()">Character</a>
-				</nav>
+				</menu>
 			</div>
-			<a href="/pages/html/create.html" class="button_big">CREATE</a>
-		</nav>
+			<a id="link" href="" class="button_big">CREATE</a>
 	</header>
 	
 	<body onload="hideHeader()">
