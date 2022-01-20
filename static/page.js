@@ -38,7 +38,8 @@ module.exports = function (req, res, url) {
 			attrs = {
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',
 				type: 'application/x-shockwave-flash', 
-				id: 'char_creator',
+				width: "100%",
+                height: "100%",
 			};
 			params = {
 				flashvars: {
@@ -70,7 +71,8 @@ module.exports = function (req, res, url) {
 			attrs = {
 				data: process.env.SWF_URL + "/cc_browser.swf", // data: 'cc_browser.swf',
 				type: "application/x-shockwave-flash",
-				id: "char_browser",
+				width: "100%",
+                height: "100%",
 			};
 			params = {
 				flashvars: {
@@ -108,7 +110,8 @@ module.exports = function (req, res, url) {
 			attrs = {
 				data: process.env.SWF_URL + "/go_full.swf",
 				type: "application/x-shockwave-flash",
-				id: "video_maker",
+				width: "100%",
+                height: "100%",
 			};
 			params = {
 				flashvars: {
@@ -145,7 +148,8 @@ module.exports = function (req, res, url) {
 			attrs = {
 				data: process.env.SWF_URL + "/player.swf",
 				type: "application/x-shockwave-flash",
-				id: "video_player",
+				width: "100%",
+                height: "100%",
 			};
 			params = {
 				flashvars: {
@@ -167,7 +171,8 @@ module.exports = function (req, res, url) {
 			attrs = {
 				data: process.env.SWF_URL + "/player.swf",
 				type: "application/x-shockwave-flash",
-				id: "video_player",
+				width: "100%",
+                height: "100%",
 				quality: "medium",
 			};
 			params = {
