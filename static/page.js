@@ -209,15 +209,60 @@ module.exports = function (req, res, url) {
 	</head>
 	
 	<header id="header">
-		<a href="/"><img id="logo" src="/html/dukedlogo.png" alt="Wrapper: Offline"/></a>
-			<div class="char_dropdown button_small">
-				<div>UPLOAD</div>
-				<menu>
-					<a onclick="document.getElementById('file').click()">Movie</a>
-					<a onclick="document.getElementById('file2').click()">Character</a>
-				</menu>
+		<div>
+			<div>
+				<a href="./"><img src="/html/dukedlogo.png" /></a>
 			</div>
-			<a id="link" href="" class="button_big">CREATE</a>
+			<div>
+				<div class="char_dropdown button_small">
+					<div>CREATE A CHARACTER</div>
+					<menu>
+						<a href="/cc?themeId=family&bs=adam">Adam</a>
+						<a href="/cc?themeId=family&bs=eve">Eve</a>
+						<a href="/cc?themeId=family&bs=bob">Bob</a>
+						<a href="/cc?themeId=family&bs=rocky">Rocky</a>
+						<div></div>
+						<a onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
+						<a onclick="document.getElementById('file2').click()">UPLOAD A CHARACTER</a>
+						<div></div>
+						<a href="/cc?themeId=anime&bs=guy">Guy (Anime)</a>
+						<a href="/cc?themeId=anime&bs=girl">Girl (Anime)</a>
+						<div></div>
+						<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja Anime)</a>
+						<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja Anime)</a>
+						<div></div>
+						<a href="/cc?themeId=cc2&bs=default">Lil' Peepz</a>
+						<div></div>
+						<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
+						<div></div>
+						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
+					</menu>
+				</div>
+				<div class="char_dropdown button_small">
+					<div>BROWSE CHARACTERS</div>
+					<menu>
+						<a href="/cc_browser?themeId=family">Comedy World</a>
+						<a href="/cc_browser?themeId=anime">Anime</a>
+						<a href="/cc_browser?themeId=ninjaanime">Ninja Anime</a>
+						<a href="/cc_browser?themeId=cc2">Lil' Peepz</a>
+						<a href="/cc_browser?themeId=chibi">Chibi Peepz</a>
+						<a href="/cc_browser?themeId=ninja">Chibi Ninjas</a>
+						<a href="/cc_browser?themeId=business">Business Friendly</a>
+					</menu>
+				</div>
+				<a href="/videomaker/full" class="button_big">MAKE A VIDEO</a>
+			        <a href="/hahsjs" class="button_big">404</a>
+	                        <a href="/html/go_empty.html" class="button_big">go empty</a>
+	                </div>
+			</div
+		</div>
+		<div class="warning"><strong>I was just notified by Spark that GoAnimate Inc. wanted me to <a
+					href="https://media.discordapp.net/attachments/741394845679091792/778077861650759711/unknown.png">cease
+					development on Wrapper</a> ... again.</strong><br>This instance of Wrapper will be taken down any
+			time before
+			2020-11-17 09:00 UTC.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
+				to a progress map of the project on GitHub</a>
+		 </div>
 	</header>
 	
 	<body onload="hideHeader()">
