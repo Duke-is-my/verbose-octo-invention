@@ -1,0 +1,1187 @@
+<film copyable="0" duration="45.6" published="1" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[Classic Caillou gets grounded intro]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="2"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="ffffff"/>
+      <color value="ff0000"/>
+      <color value="55ff"/>
+      <color value="f30f0f"/>
+      <color value="d61b1b"/>
+      <color value="ff5101"/>
+      <color value="ff6a00"/>
+    </palette>
+  </meta>
+  <scene id="SCENE0" adelay="60" lock="N" index="0" color="22015" guid="B15D5F5B-B89C-F682-2235-ADD2A249530D">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR130" index="1" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.C-1317-1641077413042.run.xml</action>
+      <head id="PROP15" raceCode="1">
+        <file>ugc.C-1317-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>-26.7390261,647.3609739</x>
+      <y>233.7,229.45</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT1" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="0" target="AVATOR130" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE1" adelay="60" lock="N" index="1" color="22015" guid="12234E32-CDB8-0CB7-6F8D-6C10E1605BF4">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR130" index="1" raceCode="1">
+      <action face="1,1" motionface="1">ugc.C-1317-1641077413042.run.xml</action>
+      <head id="PROP17" raceCode="1">
+        <file>ugc.C-1317-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>647.3609739,149.7109739</x>
+      <y>229.45,231.55</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT1" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="1" target="AVATOR130" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE2" adelay="117" lock="N" index="2" color="22015" guid="1F5BA4CD-7031-5861-9C5B-3E565CE71245">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR130" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.C-1317-1641077413042.chuckle.xml</action>
+      <head id="PROP18" raceCode="1">
+        <file>ugc.C-1317-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>149.7109739</x>
+      <y>231.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE153" index="2">
+      <x>358.0799726</x>
+      <y>179.4605624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-191.8604651" y="-35.9915414" w="383.7209302" h="71.9830827" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="16711680" alpha="100" font="Wood Stamp" size="66" align="center" bold="false" italic="false" embed="true"><![CDATA[CLASSIC CAILLOU]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <bubbleAsset id="BUBBLE154" index="3">
+      <x>363.2359739</x>
+      <y>233.7105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-197.019802" y="-36.0188088" w="394.039604" h="72.0376176" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="16711680" alpha="100" font="Wood Stamp" size="67" align="center" bold="false" italic="false" embed="true"><![CDATA[GETS GROUNDED]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <bubbleAsset id="BUBBLE155" index="4">
+      <x>358.0919753</x>
+      <y>134.5355624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="16738816" alpha="100" font="I hate Comic Sans" size="39" align="center" bold="false" italic="false" embed="true"><![CDATA[nickelodeon]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT1" themecode="common" index="5">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="60" lock="N" index="3" color="22015" guid="754C6AF6-449D-9BC3-90D9-C56B86C04AE8">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE162" index="1">
+      <x>322.0299726</x>
+      <y>190.1105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="50" align="center" bold="false" italic="false" embed="true"><![CDATA[Starting]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT1" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="60" lock="N" index="4" color="16777215" guid="8C9B1346-D666-4306-2B41-DEC66CE8E3B2" combgId="custom.cbg_bedroom">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_bedroom_BG65" index="0">
+      <file>custom.bedroom_bg.swf</file>
+    </bg>
+    <char id="AVATOR171" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.C-1317-1641077413042.dance.xml</action>
+      <x>170.9919753</x>
+      <y>252.15</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE172" index="5">
+      <x>164.6299726</x>
+      <y>117.8105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-180.9767442" y="-22.5" w="361.9534884" h="45" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="34" align="center" bold="false" italic="false" embed="true"><![CDATA[Classic Caillou]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP127" index="1" attached="Y">
+      <file>custom.bedroom_drawer02.swf</file>
+      <x>422.6</x>
+      <y>280.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP126" index="2" attached="Y">
+      <file>custom.bedroom_lamp.swf</file>
+      <x>422</x>
+      <y>207</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP124" index="3" attached="Y">
+      <file>custom.bedroom_blanket_bed.swf</file>
+      <x>434</x>
+      <y>251</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT6" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="60" lock="N" index="5" color="16777215" guid="08FD0B2B-3684-3662-03ED-DD71B2AF549D">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_bedroom_BG65" index="0">
+      <file>custom.bedroom_bg.swf</file>
+    </bg>
+    <char id="AVATOR171" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-1317-1641077413042.fearful.xml</action>
+      <head id="PROP47" raceCode="1">
+        <file>ugc.C-1317-1641077413042.head.head_shocked.xml</file>
+      </head>
+      <x>123.1419753</x>
+      <y>252.125</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR182" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.C-10750-1641077413042.xarms.xml</action>
+      <head id="PROP46" raceCode="1">
+        <file>ugc.C-10750-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>226.5583333</x>
+      <y>229.15</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE185" index="6">
+      <x>403.2169753</x>
+      <y>239.5855624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="71" align="center" bold="false" italic="false" embed="true"><![CDATA[Boris]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP127" index="1" attached="Y">
+      <file>custom.bedroom_drawer02.swf</file>
+      <x>422.6</x>
+      <y>280.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP126" index="2" attached="Y">
+      <file>custom.bedroom_lamp.swf</file>
+      <x>422</x>
+      <y>207</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP124" index="3" attached="Y">
+      <file>custom.bedroom_blanket_bed.swf</file>
+      <x>434</x>
+      <y>251</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT6" themecode="common" index="7">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="60" lock="N" index="6" color="16777215" guid="0673AFAA-F9BF-03BF-B0F7-8C65A2AADF4E" combgId="custom.cbg_boy_rm">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_boy_rm_BG6" index="0">
+      <file>custom.boy_rm_bg.swf</file>
+    </bg>
+    <char id="AVATOR171" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-1317-1641077413042.fearful.xml</action>
+      <head id="PROP48" raceCode="1">
+        <file>ugc.C-1317-1641077413042.head.head_shocked.xml</file>
+      </head>
+      <x>122.1109739</x>
+      <y>239.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR205" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.C-13575-1641077413042.taunt.xml</action>
+      <head id="PROP49" raceCode="1">
+        <file>ugc.C-13575-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>226.7583333</x>
+      <y>244.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE208" index="6">
+      <x>395.2799726</x>
+      <y>214.5605624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="57" align="center" bold="false" italic="false" embed="true"><![CDATA[Caillou]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="cbg_boy_rm_PROP5" index="1" attached="Y">
+      <file>custom.msp_boy_rm_blanket.msp_boy_rm_blanket_boy_rm_blanket01.swf</file>
+      <x>219</x>
+      <y>255</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_boy_rm_PROP6" index="2" attached="Y">
+      <file>custom.boy_rm_chair02.swf</file>
+      <x>89</x>
+      <y>257</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_boy_rm_PROP7" index="3" attached="Y">
+      <file>custom.boy_rm_chair01.swf</file>
+      <x>458</x>
+      <y>264</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT9" themecode="common" index="7">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="60" lock="N" index="7" color="16777215" guid="0C69A428-E8C6-1E8C-4712-C8240471D1EB" combgId="custom.cbg_girl_rm">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_girl_rm_BG2" index="0">
+      <file>custom.girl_rm_bg.swf</file>
+    </bg>
+    <char id="AVATOR171" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-16074-1641077413042.pt_at.xml</action>
+      <head id="PROP57" raceCode="1">
+        <file>ugc.C-16074-1641077413042.head.head_laugh.xml</file>
+      </head>
+      <x>144.3919753</x>
+      <y>241.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR229" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.C-16460-1641077413042.stand2.xml</action>
+      <head id="PROP58" raceCode="1">
+        <file>ugc.C-16460-1641077413042.head.head_cry.xml</file>
+      </head>
+      <x>281.975</x>
+      <y>243.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE232" index="7">
+      <x>428.9609739</x>
+      <y>226.7605624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="71" align="center" bold="false" italic="false" embed="true"><![CDATA[Rosie]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="cbg_girl_rm_PROP5" index="1" attached="Y">
+      <file>custom.msp_girl_rm_blanket.msp_girl_rm_blanket_girl_rm_blanket01.swf</file>
+      <x>256.6</x>
+      <y>255.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP0" index="2" attached="Y">
+      <file>custom.girl_rm_table.swf</file>
+      <x>498.5</x>
+      <y>218.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP6" index="3" attached="Y">
+      <file>custom.girl_rm_chair02.swf</file>
+      <x>125.4</x>
+      <y>261.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP7" index="4" attached="Y">
+      <file>custom.girl_rm_chair01.swf</file>
+      <x>429</x>
+      <y>303.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="8">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="60" lock="N" index="8" color="16777215" guid="C4A97463-D200-D89A-DAB1-E55CB1AC4996" combgId="custom.cbg_living_room">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_living_room_BG2" index="0">
+      <file>custom.living_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR171" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-19234-1641077413042.stand2.xml</action>
+      <head id="PROP53" raceCode="1">
+        <file>ugc.C-19234-1641077413042.head.head_cry.xml</file>
+      </head>
+      <x>252.825</x>
+      <y>247.5605624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR253" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.C-19621-1641077413042.taunt.xml</action>
+      <head id="PROP77" raceCode="1">
+        <file>ugc.C-19621-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>374.0609739</x>
+      <y>225.85</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE256" index="6">
+      <x>501.5919753</x>
+      <y>223.0605624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="71" align="center" bold="false" italic="false" embed="true"><![CDATA[Doris]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="cbg_living_room_PROP0" index="1" attached="Y">
+      <file>custom.msp_living_rm_door.msp_living_rm_door_living_room_door_close.swf</file>
+      <x>292.6</x>
+      <y>129</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_living_room_PROP1" index="2" attached="Y">
+      <file>custom.living_room_sofa.swf</file>
+      <x>369.6</x>
+      <y>250</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_living_room_PROP2" index="3" attached="Y">
+      <file>custom.msp_TV_version.msp_TV_version_living_room_tv01.swf</file>
+      <x>76.6</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT13" themecode="common" index="7">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="60" lock="N" index="9" color="16777215" guid="2A36C5DF-A661-12C2-7598-5E878B2F0D55" combgId="custom.cbg_school_locker">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG2" index="0">
+      <file>custom.school_locker_bg.swf</file>
+      <dcsn>9536</dcsn>
+      <color r="ccColorA" oc="0x0">8623449</color>
+    </bg>
+    <char id="AVATOR171" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-19234-1641077413042.stand2.xml</action>
+      <head id="PROP170" raceCode="1">
+        <file>ugc.C-19234-1641077413042.head.head_sad.xml</file>
+      </head>
+      <x>159.3109739</x>
+      <y>233.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR275" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.C-22641-1641077413042.taunt.xml</action>
+      <head id="PROP79" raceCode="1">
+        <file>ugc.C-22641-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>299.6419753</x>
+      <y>211.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE278" index="5">
+      <x>457.5799726</x>
+      <y>213.5105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="36" align="center" bold="false" italic="false" embed="true"><![CDATA[Ms. Martin]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP0" index="1" attached="Y">
+      <file>custom.school_locker.swf</file>
+      <x>460</x>
+      <y>197</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP1" index="2" attached="Y">
+      <file>custom.school_locker_open.swf</file>
+      <x>493</x>
+      <y>196</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT15" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="69" lock="N" index="10" color="16777215" guid="72D26AEB-F097-5874-47BF-F5B5C84D7E2E" combgId="common.cbg_ncc_house">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR171" index="16" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-24925-1641077413042.fearful.xml</action>
+      <head id="PROP80" raceCode="1">
+        <file>ugc.C-24925-1641077413042.head.head_sad.xml</file>
+      </head>
+      <x>134</x>
+      <y>233.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR309" index="17" raceCode="1">
+      <action face="1" motionface="1">ugc.C-25271-1641077413042.taunt.xml</action>
+      <head id="PROP91" raceCode="1">
+        <file>ugc.C-25271-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>249.575</x>
+      <y>227.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR312" index="18" raceCode="1">
+      <action face="1" motionface="1">ugc.C-25622-1641077413042.xarms.xml</action>
+      <head id="PROP92" raceCode="1">
+        <file>ugc.C-25622-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>344.5</x>
+      <y>210.15</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE315" index="19">
+      <x>475.0299726</x>
+      <y>220.6105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="23" align="center" bold="false" italic="false" embed="true"><![CDATA[Joseph Animate 2021 and Brendan]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT17" themecode="common" index="20">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="60" lock="N" index="11" color="16777215" guid="D0A0C3F1-639D-C4D8-A368-A4475D5F5BD8" combgId="custom.cbg_house_ext">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_house_ext_BG2" index="0">
+      <file>custom.house_ext_bg.swf</file>
+    </bg>
+    <char id="AVATOR343" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-31244-1641077413042.xarms.xml</action>
+      <head id="PROP93" raceCode="1">
+        <file>ugc.C-31244-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>127.7157244</x>
+      <y>146.3303647</y>
+      <xscale>0.7460792</xscale>
+      <yscale>0.7460792</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR346" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-31658-1641077413042.laugh.xml</action>
+      <head id="PROP105" raceCode="1">
+        <file>ugc.C-31658-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>205.06964</x>
+      <y>164.3761206</y>
+      <xscale>0.6665083</xscale>
+      <yscale>0.6665083</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR349" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-32070-1641077413042.xarms.xml</action>
+      <head id="PROP94" raceCode="1">
+        <file>ugc.C-32070-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>262.9711709</x>
+      <y>140.7877065</y>
+      <xscale>0.729352</xscale>
+      <yscale>0.729352</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR352" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-32482-1641077413042.stand2.xml</action>
+      <head id="PROP106" raceCode="1">
+        <file>ugc.C-32482-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>323.4128606</x>
+      <y>132.0660346</y>
+      <xscale>0.7436109</xscale>
+      <yscale>0.7436109</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR355" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-32897-1641077413042.chuckle.xml</action>
+      <head id="PROP107" raceCode="1">
+        <file>ugc.C-32897-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>385.5416891</x>
+      <y>130.6169131</y>
+      <xscale>0.7558244</xscale>
+      <yscale>0.7558244</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR358" index="6" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-33313-1641077413042.stand2.xml</action>
+      <head id="PROP108" raceCode="1">
+        <file>ugc.C-33313-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>107.7253601</x>
+      <y>255.2365191</y>
+      <xscale>0.6807556</xscale>
+      <yscale>0.6807556</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR361" index="7" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-33728-1641077413042.stand.xml</action>
+      <head id="PROP109" raceCode="1">
+        <file>ugc.C-33728-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>180.7134807</x>
+      <y>239.2996547</y>
+      <xscale>0.8068766</xscale>
+      <yscale>0.8068766</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR364" index="8" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-34142-1641077413042.xarms.xml</action>
+      <head id="PROP110" raceCode="1">
+        <file>ugc.C-34142-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>241.1544632</x>
+      <y>241.605025</y>
+      <xscale>0.7877653</xscale>
+      <yscale>0.7877653</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR171" index="9" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-24925-1641077413042.xarms.xml</action>
+      <head id="PROP90" raceCode="1">
+        <file>ugc.C-24925-1641077413042.head.head_schemeing.xml</file>
+      </head>
+      <x>301.776612</x>
+      <y>252.0021585</y>
+      <xscale>0.8371585</xscale>
+      <yscale>0.8371585</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE370" index="10">
+      <x>488.8669753</x>
+      <y>175.9355624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-108.1640571" y="-42.3960217" w="216.3281142" h="84.7920434" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lato" size="33" align="center" bold="false" italic="false" embed="true"><![CDATA[and Flip Buddies]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT19" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE13" adelay="60" lock="N" index="12" color="22015" guid="50EA1A9B-1E4B-52D6-FA69-2AA69137CFEF">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR171" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.C-24925-1641077413042.dance.xml</action>
+      <x>326.2</x>
+      <y>230.5105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT23" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE14" adelay="81" lock="N" index="13" color="22015" guid="78C82905-8EF7-B434-220D-408A8028F0DE">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR171" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-24925-1641077413042.fearful.xml</action>
+      <head id="PROP193" raceCode="1">
+        <file>ugc.C-24925-1641077413042.head.head_cry.xml</file>
+      </head>
+      <x>124.15</x>
+      <y>230.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR441" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.C-37312-1641077413042.excited.xml</action>
+      <head id="PROP129" raceCode="1">
+        <file>ugc.C-37312-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>241.1609739</x>
+      <y>212.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR444" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.C-37669-1641077413042.dance.xml</action>
+      <head id="PROP136" raceCode="1">
+        <file>ugc.C-37669-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>313.4419753</x>
+      <y>237.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR447" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.C-38022-1641077413042.excited.xml</action>
+      <head id="PROP132" raceCode="1">
+        <file>ugc.C-38022-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>363.3799726</x>
+      <y>213.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR560" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.C-13575-1641077413042.dance.xml</action>
+      <head id="PROP143" raceCode="1">
+        <file>ugc.C-13575-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>494.4</x>
+      <y>234.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT23" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE15" adelay="81" lock="N" index="14" color="22015" guid="6AA1A02B-D42D-54B1-C9EA-379D60951C1B">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR171" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-24925-1641077413042.fearful.xml</action>
+      <head id="PROP210" raceCode="1">
+        <file>ugc.C-24925-1641077413042.head.head_cry.xml</file>
+      </head>
+      <x>124.15</x>
+      <y>230.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR441" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.C-37312-1641077413042.excited.xml</action>
+      <head id="PROP130" raceCode="1">
+        <file>ugc.C-37312-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>241.1609739</x>
+      <y>212.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR444" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.C-37669-1641077413042.dance.xml</action>
+      <head id="PROP137" raceCode="1">
+        <file>ugc.C-37669-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>313.4419753</x>
+      <y>237.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR447" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.C-38022-1641077413042.excited.xml</action>
+      <head id="PROP133" raceCode="1">
+        <file>ugc.C-38022-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>363.3799726</x>
+      <y>213.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR564" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.C-13575-1641077413042.dance.xml</action>
+      <head id="PROP145" raceCode="1">
+        <file>ugc.C-13575-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>494.4</x>
+      <y>234.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT23" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>47,47</x>
+      <y>24,105.9583871</y>
+      <width>550,169.7903226</width>
+      <height>354,109.2832258</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE16" adelay="87" lock="N" index="15" color="22015" guid="86F7723B-9AD4-875F-41BD-0A11DBA15D64">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR171" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.C-24925-1641077413042.fearful.xml</action>
+      <head id="PROP214" raceCode="1">
+        <file>ugc.C-24925-1641077413042.head.head_cry.xml</file>
+      </head>
+      <x>124.15</x>
+      <y>230.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR441" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.C-37312-1641077413042.excited.xml</action>
+      <head id="PROP131" raceCode="1">
+        <file>ugc.C-37312-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>241.1609739</x>
+      <y>212.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR444" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.C-42296-1641077413042.dance.xml</action>
+      <head id="PROP140" raceCode="1">
+        <file>ugc.C-42296-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>313.4419753</x>
+      <y>237.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR447" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.C-42683-1641077413042.excited.xml</action>
+      <head id="PROP138" raceCode="1">
+        <file>ugc.C-42683-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>363.3799726</x>
+      <y>213.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR450" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.C-43072-1641077413042.dance.xml</action>
+      <head id="PROP139" raceCode="1">
+        <file>ugc.C-43072-1641077413042.head.head_angry.xml</file>
+      </head>
+      <x>463.3609739</x>
+      <y>235.175</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE542" index="6">
+      <x>170.2598416</x>
+      <y>166.9595651</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-46.5634951" y="-18.9028879" w="93.1269902" h="37.8057758" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Lilita One" size="11" align="center" bold="false" italic="false" embed="true"><![CDATA[Enjoy this show or you're grounded!]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT23" themecode="common" index="7">
+      <effect x="0" y="0" w="169.7903226" h="95.7" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>105.9583871</y>
+      <width>169.7903226</width>
+      <height>109.2832258</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND4" index="0" track="0" vol="1" tts="0">
+    <sfile>common.bullethead_60.mp3</sfile>
+    <start>1</start>
+    <stop>1095</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+<cc_char file_name='ugc.char.C-1317-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x996633</color><color r="ccHairMajor">0x996633</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x9E9292</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="001" theme_id="family" x="0" y="0" xscale="0.84" yscale="0.84" offset="0" rotation="0"/><component type="eyebrow" component_id="106" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-10750-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x010101</color><color r="ccUpperMain" oc="0x336699">0x428247</color><color r="ccUpperMinor" oc="0xE5E5E5">0x9E1A1A</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><color r="ccHairMajor">0x560E0E</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="014" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="0.84" yscale="0.84" offset="0" rotation="0"/><component type="eyebrow" component_id="005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-13575-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccHairMajor">0x714227</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0xF3F01E</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF31E1E</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="001" theme_id="family" x="0" y="0" xscale="0.82" yscale="0.82" offset="0" rotation="0"/><component type="nose" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="101" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-16074-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x996633</color><color r="ccHairMajor">0x996633</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x9E9292</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="001" theme_id="family" x="0" y="0" xscale="0.84" yscale="0.84" offset="0" rotation="0"/><component type="eyebrow" component_id="106" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-16460-1641077413042.xml' scale='0.8' yscale='0.8' hxscale='1.2' hyscale='1.2' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x480808</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0x43C2E7</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFF6666</color><color r="ccLowerMain" oc="0xCCBC9A">0x43C2E7</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><color r="ccHairMajor">0xFF5400</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="101" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="ear" component_id="007" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_010" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="lower_body" component_id="eve_004" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="050" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="5" xscale="0.71" yscale="0.77" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-19234-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x996633</color><color r="ccHairMajor">0x996633</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x9E9292</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="001" theme_id="family" x="0" y="0" xscale="0.84" yscale="0.84" offset="0" rotation="0"/><component type="eyebrow" component_id="106" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-19621-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x480808</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xF31E1E</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF3F01E</color><color r="ccLowerMain" oc="0xCCBC9A">0x0000FF</color><color r="ccLowerMinor" oc="0xEEEEEE">0x116BA4</color><color r="ccHairMajor">0x000000</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="101" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="ear" component_id="007" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="050" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="5" xscale="0.84" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_009" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="lower_body" component_id="eve_006" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-22641-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x480808</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xF31E1E</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF31E1E</color><color r="ccLowerMain" oc="0xCCBC9A">0xFF0000</color><color r="ccLowerMinor" oc="0xEEEEEE">0x116BA4</color><color r="ccHairMajor">0xFF9400</color><color r="ccDecMajor" targetComponent="ID4368">0x2E65A9</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="101" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="ear" component_id="007" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="055" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component id="ID4368" type="facedecoration" component_id="043" theme_id="family" x="-5" y="-20" xscale="0.9" yscale="0.9" offset="0" rotation="39"/><component type="eye" component_id="004" theme_id="family" x="0" y="5" xscale="0.7" yscale="0.76" offset="0" rotation="0"/><component type="eyebrow" component_id="107" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_011" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="lower_body" component_id="eve_016" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-24925-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x996633</color><color r="ccHairMajor">0x996633</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x9E9292</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="001" theme_id="family" x="0" y="0" xscale="0.84" yscale="0.84" offset="0" rotation="0"/><component type="eyebrow" component_id="106" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-25271-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x996633</color><color r="ccHairMajor">0x000000</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x428247</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0x7B6B15</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-25622-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x00FF0C</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccHairMajor">0x000000</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0xFF7BED</color><color r="ccUpperMinor" oc="0xE5E5E5">0xCD1EF3</color><color r="ccLowerMain" oc="0xCCBC9A">0x9CC2CF</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFFFFFF</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="102" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-31244-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFEBD9D</color><color r="ccEyeLib">0xFEBD9D</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0x000000</color><color r="ccGlassesLens">0x846116</color><color r="ccMouthLip">0xCA8730</color><color r="ccMustache">0x360202</color><color r="ccBeard">0x360202</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xFF6E00</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF39B1E</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFFFFFF</color><component type="bodyshape" component_id="bob" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="bob_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="013" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="bob_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="015" theme_id="family" x="-4" y="0" xscale="1.05" yscale="1" offset="0" rotation="7"/><component type="upper_body" component_id="bob_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="009" theme_id="family" x="-3" y="-5" xscale="1.07" yscale="0.9" offset="0" rotation="4"/><component type="eyebrow" component_id="005" theme_id="family" x="0" y="1" xscale="1" yscale="1" offset="0" rotation="-3"/><component type="eye" component_id="205" theme_id="family" x="0" y="1" xscale="0.82" yscale="0.76" offset="1" rotation="0"/><component type="ear" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-31658-1641077413042.xml' scale='0.8' yscale='0.8' hxscale='1.2' hyscale='1.2' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFEDE3</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0x000000</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xF31E1E</color><color r="ccUpperMinor" oc="0xE5E5E5">0x0061FF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0061FF</color><color r="ccLowerMinor" oc="0xEEEEEE">0x2D5F0C</color><color r="ccHairMajor">0x000000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="204" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="glasses" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="015" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-32070-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x72FF00</color><color r="ccHairMajor">0x72FF00</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x29408A</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF31E1E</color><color r="ccLowerMain" oc="0xCCBC9A">0x29408A</color><color r="ccLowerMinor" oc="0xEEEEEE">0x000000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="008" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="106" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="205" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-32482-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xC8920F</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0xF1E41C</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x996633</color><color r="ccHairMajor">0x996633</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0x75390E</color><color r="ccUpperMinor" oc="0xE5E5E5">0x87461F</color><color r="ccLowerMain" oc="0xCCBC9A">0xCC9966</color><color r="ccLowerMinor" oc="0xEEEEEE">0xF1E41C</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="018" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="101" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="006" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-32897-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xB536FF</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFFFFFF</color><color r="ccHairMajor">0xFFFF00</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="109" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="109" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="009" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-33313-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xC8920F</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0x43C2E7</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF31E1E</color><color r="ccLowerMain" oc="0xCCBC9A">0xCC9966</color><color r="ccLowerMinor" oc="0xEEEEEE">0x116BA4</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_007" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="033" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="202" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-33728-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xCA9050</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0x000000</color><color r="ccGlassesLens">0x000000</color><color r="ccMouthLip">0xCA5F30</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0x909090</color><color r="ccUpperMinor" oc="0xE5E5E5">0x909090</color><color r="ccLowerMain" oc="0xCCBC9A">0x909090</color><color r="ccLowerMinor" oc="0xEEEEEE">0x333333</color><color r="ccHairMajor">0x000000</color><component type="bodyshape" component_id="rocky" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="rocky_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="rocky_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="-2" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="-1" y="-5" xscale="1" yscale="0.71" offset="0" rotation="0"/><component type="upper_body" component_id="rocky_002" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="017" theme_id="family" x="-1" y="2" xscale="1.05" yscale="0.99" offset="0" rotation="0"/><component type="eyebrow" component_id="005" theme_id="family" x="0" y="7" xscale="1" yscale="1" offset="-2" rotation="0"/><component type="eye" component_id="205" theme_id="family" x="0" y="2" xscale="0.71" yscale="0.66" offset="0" rotation="0"/><component type="nose" component_id="012" theme_id="family" x="-3" y="-3" xscale="0.78" yscale="0.78" offset="0" rotation="-3"/><component type="faceshape" component_id="005" theme_id="family" x="1" y="-1" xscale="0.99" yscale="0.95" offset="0" rotation="-2"/></cc_char><cc_char file_name='ugc.char.C-34142-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0x0B3573</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF3F01E</color><color r="ccLowerMain" oc="0xCCBC9A">0x333333</color><color r="ccLowerMinor" oc="0xEEEEEE">0x999999</color><color r="ccHairMinor">0xC1BFB8</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_a012" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="041" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component id="ID7404" type="facedecoration" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component id="ID1775" type="facedecoration" component_id="012" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="003" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-37312-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xBE10B0</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x010101</color><color r="ccUpperMain" oc="0x336699">0x428247</color><color r="ccUpperMinor" oc="0xE5E5E5">0x9E1A1A</color><color r="ccLowerMain" oc="0xCCBC9A">0x0B3573</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><color r="ccHairMajor">0x560E0E</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="201" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="hair" component_id="014" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="0.84" yscale="0.84" offset="0" rotation="0"/><component type="eyebrow" component_id="005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-37669-1641077413042.xml' scale='0.8' yscale='0.8' hxscale='1.2' hyscale='1.2' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x480808</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0x43C2E7</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFF6666</color><color r="ccLowerMain" oc="0xCCBC9A">0x43C2E7</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><color r="ccHairMajor">0xFF5400</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="101" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="ear" component_id="007" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_010" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="lower_body" component_id="eve_004" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="050" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="5" xscale="0.71" yscale="0.77" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-38022-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFE1C4</color><color r="ccEyeIris">0x480808</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xF31E1E</color><color r="ccUpperMinor" oc="0xE5E5E5">0xF3F01E</color><color r="ccLowerMain" oc="0xCCBC9A">0x0000FF</color><color r="ccLowerMinor" oc="0xEEEEEE">0x116BA4</color><color r="ccHairMajor">0x000000</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="101" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="ear" component_id="007" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="050" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="5" xscale="0.84" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_009" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="lower_body" component_id="eve_006" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/></cc_char><cc_char file_name='ugc.char.C-42296-1641077413042.xml' scale='0.8' yscale='0.8' hxscale='1.2' hyscale='1.2' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xCD1EF3</color><color r="ccUpperMinor" oc="0xE5E5E5">0xCD1EF3</color><color r="ccLowerMain" oc="0xCCBC9A">0xCD1EF3</color><color r="ccLowerMinor" oc="0xEEEEEE">0xCD1EF3</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="eye" component_id="102" theme_id="family" x="1" y="5" xscale="0.9" yscale="0.9" offset="-1" rotation="0"/><component type="mouth" component_id="001" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="029" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component type="lower_body" component_id="eve_004" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_009" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="ear" component_id="002" theme_id="family" x="21" y="-16" xscale="1.37" yscale="1.37" offset="0" rotation="-46"/></cc_char><cc_char file_name='ugc.char.C-42683-1641077413042.xml' scale='1' yscale='1' hxscale='1' hyscale='1' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0xFF0000</color><color r="ccGlassesLens">0xFF0000</color><color r="ccMouthLip">0xFF6666</color><color r="ccMustache">0x8B6F18</color><color r="ccBeard">0xC29B22</color><color r="ccEyebrow">0x000000</color><color r="ccUpperMain" oc="0x336699">0xFF6666</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x43C2E7</color><color r="ccLowerMinor" oc="0xEEEEEE">0xEEEEEE</color><component type="bodyshape" component_id="eve" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="eve_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="034" theme_id="family" x="0" y="1" xscale="0.99" yscale="0.95" offset="0" rotation="0"/><component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="eye" component_id="102" theme_id="family" x="1" y="5" xscale="0.9" yscale="0.9" offset="-1" rotation="0"/><component type="mouth" component_id="001" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="hair" component_id="050" theme_id="family" x="-1" y="3" xscale="0.95" yscale="0.95" offset="0" rotation="0"/><component type="lower_body" component_id="eve_006" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="upper_body" component_id="eve_009" theme_id="family" x="0" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0"/><component type="ear" component_id="001" theme_id="family" x="22" y="-13" xscale="1.55" yscale="1.55" offset="0" rotation="-53"/></cc_char><cc_char file_name='ugc.char.C-43072-1641077413042.xml' scale='0.8' yscale='0.8' hxscale='1.2' hyscale='1.2' headdx='0' headdy='0'><color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color><color r="ccEyeLib">0xFFCE95</color><color r="ccEyeIris">0x000000</color><color r="ccGlassesFrame">0x7C431A</color><color r="ccGlassesLens">0x737373</color><color r="ccMouthLip">0x891258</color><color r="ccMustache">0x000000</color><color r="ccBeard">0xFFFFFF</color><color r="ccEyebrow">0x000000</color><color r="ccHairMajor">0x996633</color><color r="ccHairMinor">0x640F0F</color><color r="ccUpperMain" oc="0x336699">0xF3F01E</color><color r="ccUpperMinor" oc="0xE5E5E5">0xFFFFFF</color><color r="ccLowerMain" oc="0xCCBC9A">0x43C2E7</color><color r="ccLowerMinor" oc="0xEEEEEE">0xFF0000</color><component type="bodyshape" component_id="adam" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="skeleton" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="upper_body" component_id="adam_005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="lower_body" component_id="adam_001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="faceshape" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="nose" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="ear" component_id="010" theme_id="family" x="12" y="-10" xscale="1.71" yscale="1.71" offset="0" rotation="-41"/><component type="glasses" component_id="005" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eyebrow" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="eye" component_id="004" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/><component type="mouth" component_id="001" theme_id="family" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/></cc_char><thumb>/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx4BBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/AABEIAWgCgAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APMa/p8/JQoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgA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</thumb></film>

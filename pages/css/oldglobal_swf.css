@@ -5,69 +5,44 @@ this css has the general header/footer layout stuff
 /**
 general
 **/
-html {
-	font-family: 'Sailec', Arial, sans-serif;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+html, body {
+	background: #0c0c0c;
+	color: #fff;
+	font: 16px/1.5 'Sailec', Arial, sans-serif;
+	width: 100%;
+	height: 100%;
 }
 body {
-	margin: 0;
-	background-color: #fff;
-	color: #474747;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.5;
-	position: relative;
+	display: flex; 
+	flex-direction: column; 
 }
-/**
-header
-**/
+
+
 header {
-	position: sticky;
-	top: 0;
-	width: 100%;
-}
-header>:nth-child(1) {
+	height: 44px;
 	align-content: center;
 	background-color: #1e1e1e;
-	display: inline-block;
-	padding-bottom: 13px;
-	text-align: center;
 	color: #fff;
+	text-align: center;
+	display: inline-block;
 	width: 100%;
 }
-header>:nth-child(1)>:nth-child(1) {
-	float: left;
-}
-header>:nth-child(1)>:nth-child(1)>:nth-child(1)>* {
-	margin-left: 10px;
-	margin-top: 7px;
-	height: 30px;
-}
-header>:nth-child(1)>:nth-child(1)>:nth-child(2) {
-	color: #666;
-	padding-left: 4px;
-	font-weight: 700;
-}
-header>:nth-child(1)>:nth-child(2) {
-	margin-right: 20px;
-	clear: both;
-}
-/* makes the header a set height when the window is 887px wide */
-@media (min-width: 487px) {
-	header {
-		padding-bottom: auto;
-		height: 44px;
-	}
-}
+
 #logo {
+	float: left;
+	margin-left: 10px;
 	margin-top: 4px;
 	height: 35px;
 }
-/* buttons */
+
+#headbuttons {
+	margin-right: 20px;
+	float: right;
+}
+
 .button_big,
 .button_small {
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-top: 7px;
 	display: inline-block;
 	padding-top: 5px;
@@ -77,57 +52,53 @@ header>:nth-child(1)>:nth-child(2) {
 	text-decoration: none;
 	color: #fff;
 }
+
 .button_big {
 	background-color: #d85e27;
 	width: 160px;
 }
+
 .button_big:hover {
 	text-decoration: underline;
 }
+
 .button_small:hover {
 	color: #d85e27;
 }
+
 .button_big:hover,
 .button_small:hover {
 	cursor: pointer;
 }
-/**
-header dropdowns
-**/
-/* change button margin/padding to fit dropdown */
-.char_dropdown:hover>:nth-child(1) {
-	cursor: context-menu;
-	color: #d85e27;
+
+#char_dropdown {
+	width: 200px;
 }
 
-.char_dropdown>menu {
+#char_dropdown>menu {
 	position: relative;
 	display: none;
 	top: 100%;
 	left: 0;
 	z-index: 1000;
 	float: left;
-	width: 100%;
+	width: 190px;
 	padding: 10px 0;
 	margin: 9px 0 0;
-	list-style: none;
 	font-size: 14px;
 	text-align: left;
 	background-color: #fff;
-	border: 1px solid #ccc;
 	border: 1px solid rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
 }
 
-.char_dropdown:hover>menu {
+#char_dropdown:hover>menu {
 	display: block;
+	cursor:default
 }
 
-.char_dropdown>menu>a {
+#char_dropdown>menu>a {
 	display: block;
 	padding: 2px 20px;
 	clear: both;
@@ -136,101 +107,202 @@ header dropdowns
 	text-decoration: none;
 }
 
-.char_dropdown>menu>a:hover {
+#char_dropdown>menu>a:hover {
+	cursor: pointer;
+	color: #d85e27;
+}
+
+#char_dropdown>menu>a:hover {
 	color: #d85e27;
 	background-color: #f5f5f5;
 }
 
-.char_dropdown>menu>div {
-	height: 1px;
+#char_dropdown>menu>hr {
+	border: 1px solid #e5e5e5;
 	margin: 10px 0;
-	background-color: #e5e5e5;
 }
 
-/**
-footer
-**/
-footer {
-	/* style */
-	background: linear-gradient(#1d1d1d, #141414);
-	box-shadow: 0px -1px 6px 0px #00000082;
-	/* layout */
-	margin-top: auto; /* footer at the foot */
-	display: flex;
-	justify-content: space-between;
-	flex-shrink: 0;
-}
-footer nav { margin: 5px 10px }
-/* links */
-footer a, footer span {
-	color: #fff;
-	text-decoration: none;
-	margin: 0 10px;
-}
-footer a {
-	font-weight: bold;
-}
-footer a:hover {
-	text-decoration: underline;
+#char_dropdown>menu>h2 {
+	font-size: 15px;
+	color: #000;
+	margin:0;
+	padding:2px 20px;
+	font-weight:bold
 }
 
-/** 
-warning
-**/
-.warning {
+
+table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 127px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
 	font-size: 14px;
-	padding: 10px 0;
-	background-color: #fd7;
+}
+
+@media(min-width: 768px) {
+	table {
+		width: 750px;
+	}
+}
+
+@media(min-width: 992px) {
+	table {
+		width: 970px;
+	}
+}
+
+@media(min-width: 1200px) {
+	table {
+		width: 1170px;
+	}
+}
+
+thead {
+	font-weight: 200;
+}
+
+td {
+	padding: 8px;
+	vertical-align: middle;
+	line-height: 1.42857143;
+}
+
+thead {
+	border-bottom: 2px solid #ddd;
+}
+
+tbody>tr {
+	border-top: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+tbody>tr:hover {
+	background-color: #f5f5f5;
+}
+
+tr>:nth-child(1) {
+	width: 64px;
+}
+
+tr>:nth-child(1)>img {
+	height: 36px;
+}
+
+tr>:nth-child(1) {
+	word-break: break-word;
+}
+
+tr>:nth-child(2) {
+	color: #999;
+}
+
+tr>:nth-child(3) {
+	width: 250px;
+}
+
+tr>:nth-child(3)>* {
+	display: inline-block;
 	text-align: center;
-}
-
-.warning::before {
-	font-family: 'GlyphiconsRegular';
-	padding-right: 4px;
-	content: '\E079';
 	font-size: 12px;
+	width: 8.5px;
 }
 
-.warning>a {
-	color: #5596e6;
+tr>:nth-child(4) {
+	font-family: 'GlyphiconsRegular';
+	text-decoration: none;
+	padding-top: 5px;
+	font-size: 14px;
+	width: 80px;
 }
-/**
-font importing
-**/
+
+tr>:nth-child(4)>a {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 10px;
+	color: #474747;
+}
+
+tr>:nth-child(4)>a:hover {
+	color: #d85e27;
+}
+
+tr>:nth-child(4)>:nth-child(1)::before {
+	content: '\E174';
+}
+
+tr>:nth-child(4)>:nth-child(2)::before {
+	content: '\E235';
+}
+
+tr>:nth-child(4)>:nth-child(3)::before {
+	content: '\E182';
+}
+
+tfoot>tr>td {
+	text-align: center;
+	border: none;
+}
+
+tfoot>tr>td>a {
+	text-decoration: none;
+	color: #474747;
+	font-size: 14px;
+}
+
+form {
+	display: none;
+}
+
+footer{
+	position:fixed;
+	left:5px;
+	bottom:5px;
+	color:#474747;
+}
+
+footer>a{
+	color:#474747;
+	text-decoration:none;
+}
+
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 100;
-	src: url('/html/Sailec-Thin.woff') format('woff');
+	src: url('.../fonts/Sailec-Thin.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 200;
-	src: url('/html/Sailec-Light.woff') format('woff');
+	src: url('../fonts/Sailec-Light.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 400;
-	src: url('/html/Sailec-Regular.woff') format('woff');
+	src: url('../fonts/Sailec-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 500;
-	src: url('/html/Sailec-Medium.woff') format('woff');
+	src: url('../fonts/Sailec-Medium.woff') format('woff');
 }
 
 /* font weight 500 and font weight 700 (bold) are the same for better integration support */
 @font-face {
 	font-family: 'Sailec';
 	font-weight: 700;
-	src: url('/html/Sailec-Medium.woff') format('woff');
+	src: url('../fonts/Sailec-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'GlyphiconsRegular';
-	src: url('/html/glyphicons-regular.woff') format('woff');
+	src: url('../fonts/glyphicons-regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
