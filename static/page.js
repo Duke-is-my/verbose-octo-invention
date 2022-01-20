@@ -245,8 +245,15 @@ module.exports = function (req, res, url) {
 			        <a href="javascript:; onclick="document.getElementById('file').click()" class="button_big">CC Upload</a>
 	                        <a href="/html/go_empty.html" class="button_big">go empty</a>
 	                </div>
-			</div
+			</div>
 		</div>
+		<div class="warning"><strong>I was just notified by Spark that GoAnimate Inc. wanted me to <a
+					href="https://media.discordapp.net/attachments/741394845679091792/778077861650759711/unknown.png">cease
+					development on Wrapper</a> ... again.</strong><br>This instance of Wrapper will be taken down any
+			time before
+			2020-11-17 09:00 UTC.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
+				to a progress map of the project on GitHub</a>
+		 </div>
 	</header>
 	<table>
 		${toObjectString(attrs, params)}
