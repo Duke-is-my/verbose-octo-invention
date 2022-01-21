@@ -16,7 +16,7 @@ function toParamString(table) {
 		.join(" ");
 }
 function toObjectString(attrs, params) {
-	return `<object id="obj" ${Object.keys(attrs)
+	return `<object ${Object.keys(attrs)
 		.map((key) => `${key}="${attrs[key].replace(/"/g, '\\"')}"`)
 		.join(" ")}>${toParamString(params)}</object>`;
 }
@@ -191,7 +191,8 @@ module.exports = function (req, res, url) {
 	res.setHeader("Content-Type", "text/html; charset=UTF-8");
 	Object.assign(params.flashvars, query);
 	// if you're seeing this, just know i hate doing this stuff - spark
-	res.end(`<head>
+	res.end(`
+	<head>
 		<script>
 			document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}
 		</script>
@@ -208,53 +209,20 @@ module.exports = function (req, res, url) {
 		<link rel="stylesheet" type="text/css" href="/pages/css/swf.css">
 	</head>
 	
-<header>
-	<div>
-		<h1 style="margin:0"><img id="logo" src="/html/dukedlogo.png" alt="Wrapper: Offline"/></h1>
-		<div id="headbuttons">
-			<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
-			<div id="char_dropdown" class="button_small">
-				<div>CREATE A CHARACTER</div>
-				<menu>
-					<h2>Comedy World</h2>
-					<a href="/cc?themeId=family&bs=adam">Guy (Adam)</a>
-					<a href="/cc?themeId=family&bs=eve">Girl (Eve)</a>
-					<a href="/cc?themeId=family&bs=bob">Fat (Bob)</a>
-					<a href="/cc?themeId=family&bs=rocky">Buff (Rocky)</a>
-					<hr>
-					<h2>Anime</h2>
-					<a href="/cc?themeId=anime&bs=guy">Guy</a>
-					<a href="/cc?themeId=anime&bs=girl">Girl</a>
-					<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja)</a>
-					<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja)</a>
-					<hr>
-					<h2>Peepz</h2>
-					<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
-					<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
-					<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
-                    <hr>
-                    <h2>Yanny's Stuff</h2>
-                    <a href="/hahsjs" class="button_big">404</a>
-	                <a href="/html/go_empty.html" class="button_big">go empty</a>
-                    <hr>
-                    <h2><a href="javascript:uploadCCCharacter()" onclick="document.getElementById('file2').click()">Upload A Character</a></h2> 
-				</menu>
-			</div>
-			<a href="/videomaker/full" class="button_big">MAKE A VIDEO</a>
-		</div>
-	</div>
-</header>
+	<header id="header">
+		<div>
+		     <h1 style="margin:0"><img id="logo" src="/html/dukedlogo.png" alt="Wrapper: Offline"/></h1>
+		     <div id="headbuttons">
+			     <a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
+			      <a href="create.html" class="button_big">CREATE</a>
+		     </div>
+	    </div>
+	</header>
 	
 	<body onload="hideHeader()">
 		<main>
 			${toObjectString(attrs, params)}
 		</main>
-	${stuff.pages[url.pathname] || ''}
-<form enctype='multipart/form-data' action='/upload_movie' method='post'>
-	<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
-</form>
-<form enctype='multipart/form-data' action='/upload_character' method='post'>
-	<input id='file2' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
-</form></body>`)
+	${stuff.pages[url.pathname] || ''}</body>`)
 	return true;
 };
